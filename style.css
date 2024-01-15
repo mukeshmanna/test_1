@@ -1,101 +1,93 @@
 @import url('https://fonts.googleapis.com/css?family=Play');
 @import url('https://fonts.googleapis.com/css?family=El+Messiri');
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: rgb(194, 244, 251); 
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.business-card {
-    /* background-color: #696c6e;  */
-    border-radius: 10px;
-    box-shadow: 0 40px 120px rgb(35, 35, 35);
-    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    max-width: 400px; 
-    width: 100%;
-}
-
-.profile-picture {
-    width: 150px; 
-    height: 150px; 
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-.name {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-
-.profession {
-    font-size: 16px;
-    margin-bottom: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-
-.company {
-    font-size: 13px;
-    margin-bottom: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-
-.contact-icons {
+    padding: 10px;
+  }
+  
+  .address {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .menu {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 20px;
-    
-}
-
-.contact-icons a {
-    text-decoration: none;
-    color: #333;
-    margin: 0 15px;
-    
-}
-
-.contact-icons i {
+    padding: 20px;
+  }
+  
+  .menu-heading {
     font-size: 24px;
-}
-
-.services {
-    margin-top: 20px;
-    
-}
-
-.services img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-.service-title {
-    font-size: 18px;
     font-weight: bold;
-    margin-bottom: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.service-description {
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .menu-item {
+    flex: 1 0 300px;
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .menu-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .cta-button {
+    background-color: #ffffff;
+    color: #363636;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cta-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #555;
+    color: white;
+  }
+  
