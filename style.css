@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(194, 244, 251); 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.business-card {
+    /* background-color: #696c6e;  */
+    border-radius: 10px;
+    box-shadow: 0 40px 120px rgb(35, 35, 35);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px; 
+    width: 100%;
+}
+
+.profile-picture {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.profession {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.company {
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.contact-icons a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    
+}
+
+.contact-icons i {
+    font-size: 24px;
+}
+
+.services {
+    margin-top: 20px;
+    
+}
+
+.services img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.service-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.service-description {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
