@@ -6,13 +6,14 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f8f8f8;
+    background-color: #d3d0d0;
   }
   
   header {
-    background-color: #333;
-    color: #fff;
+    background-color: #181717;
+    color: #e7e2e2;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 10px;
   }
   
@@ -34,11 +35,12 @@ body {
     margin-bottom: 10px;
     text-align: center;
     width: 100%;
+    color: rgb(219, 30, 30);
   }
   
   .menu-item {
     flex: 1 0 300px;
-    background-color: #fff;
+    background-color: #201f21;
     padding: 15px;
     margin: 10px;
     border-radius: 5px;
@@ -48,6 +50,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    color: #d3d0d0;
   }
   
   .menu-item:hover {
@@ -68,8 +71,8 @@ body {
   }
   
   .cta-button {
-    background-color: #ffffff;
-    color: #363636;
+    background-color: #c05858;
+    color: #131313;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -87,7 +90,6 @@ body {
   }
   
   .cta-button:hover {
-    background-color: #555;
+    background-color: #3d9d5d;
     color: white;
-  }
-  
+  } 
