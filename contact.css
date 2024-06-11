@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+:root {
+    --main-color: #9F5C44;
+    --second-color: #64342C;
+    --third-color: #644C2C;
+    --fourth-color: #392414;
+    --fifth-color: #1F232C;
+    --sixth-color: #e7a891;
+    --black: #13131a;
+    --bg: #000000;
+    --border: .1rem solid rgba(255,255,255,.3);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem; 
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+section {
+    padding: 2rem 7%;
+}
+
+
+
+
+.contact .row {
+    display: flex;
+    background-color: var(--black);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.contact .row .map {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+#map {
+    height: 550px;
+    width: 100%;
+}
+
+.contact .row form {
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h3 {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.contact .row form .inputBox {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: var(--bg);
+    border: var(--border);
+}
+
+.contact .row form .inputBox span {
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.contact .row form .inputBox input {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+    background: none;
+}
+
+.contact .row form .inputBox textarea {
+    width: 100%;
+    height: 200px;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+    background: none;
+}
+
+/* FOOTER SECTION */
+
+
+.footer {
+    background-color: var(--black);
+    text-align: center;
+    padding: 30px
+}
+
+.footer .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer .logo img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer .logo h3 {
+    font-size: 4rem;
+    color: var(--main-color);
+}
+
+.footer .logo i {
+    font-size: 2rem;
+    color: var(--main-color);
+    margin-right: 5px;
+    margin-top: 1rem;
+}
+
+.footer .logo p {
+    display: inline-block;
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--main-color);
+    vertical-align: middle;
+    text-transform: none;
+}
+
+.footer .support, 
+.footer .company,
+.footer .newsletters  {
+    flex: 0 0 calc(25% - 30px);
+}
+
+.footer .support h2, 
+.footer .company h2,
+.footer .newsletters h2  {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.footer .support a, 
+.footer .company a,
+.footer .newsletters a  {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+
+.footer .support a:hover, 
+.footer .company a:hover,
+.footer .newsletters a:hover  {
+    color: var(--main-color);
+}
+
+.footer .newsletters p {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #666;
+    font-size: 1.7rem;
+}
+
+.footer .newsletter {
+    width: 100%;
+    border-radius: 2.5rem;
+    padding: 1.8rem;
+    color: #fff;
+    background-color: var(--main-color);
+    padding-right: 30px;
+}  
+
+.newsletter::placeholder {
+    color: #bdbdbd;
+}
+
+.footer .input-wrapper {
+    position: relative;
+}
+
+.fas.fa-paper-plane {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: #ececec;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.footer .credit {   
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    margin-top: 30px;
+    padding: 1rem;
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+.footer .credit h2 {
+    font-weight: lighter;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+
+.footer .credit span {
+    color: var(--main-color);
+}
+
+.footer .credit hr {
+    color: var(--main-color);
+}

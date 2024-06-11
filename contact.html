@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading"><span>Contact</span> Us</h1>
+    <div class="row">
+        <div id="map" class="map pull-left"></div>
+        <form name="contact" method="POST" action="https://formspree.io/f/xayzavgb">
+            <h3> Get in touch with us!</h3>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="inputBox">
+                <textarea name="message" placeholder="Enter your message..."></textarea>
+            </div>
+            <button type="submit" class="btn">Contact Now</button>
+        </form>
+    </div>
+</section>
+
+<!-- FOOTER SECTION -->
+<section class="footer">
+    <div class="footer-container">
+        <div class="logo">
+            <i class="fas fa-envelope"></i>
+            <p>abC@gmail.com</p><br />
+            <i class="fas fa-phone"></i>
+            <p>+91123456789</p><br />
+            <i class="fab fa-facebook-messenger"></i>
+            <p>@ABC COLLEGE</p><br />
+        </div>
+        <div class="support">
+            <h2>Support</h2>
+            <br /> 
+            <a href="#">Contact Us</a>
+            <a href="#">Chatbot Inquiry</a>
+            
+        </div>
+        <div class="company">
+            <h2>College</h2>
+            <br /> 
+            <a href="#">About Us</a>
+            <a href="#">Affiliates</a>
+            <a href="#">Resources</a>
+            
+        </div>
+       
+        <div class="credit">
+            <hr /><br/>
+            <h2>ABC COLLEGE © 2023 | All Rights Reserved.</h2>
+           
+        </div>
+    </div>
+</section>
+
+
+function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 14.99367271992383, lng: 120.17629231186626},
+        zoom: 9
+    });
+
+    var marker = new google.maps.Marker({
+        position: {lat: 14.99367271992383, lng: 120.17629231186626},
+        map: map,
+        title: 'Your Location'
+    });
+}
+
+</body>
+</html>
